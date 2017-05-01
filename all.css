@@ -1,0 +1,205 @@
+.wrap{
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto;
+}
+.header{
+	
+}
+.fb{
+	float: right;
+	position: relative;
+	top: -80px;
+}
+.tw{
+	float: right;
+	margin-right: 3px;
+	position: relative;
+	top: -80px;
+}
+.menu li{
+	display: inline-block;
+	position: relative;
+	top: -40px;
+	left: 200px;
+	font-size: 18px;
+}
+@media(max-width: 768px){
+	.logo{
+		display: block;
+		margin: auto;
+	}
+	.fb{
+		display: none;
+	}
+	.tw{
+		display: none;
+	}
+	.menu li{
+		float: none;
+		width: 100%;
+	}
+}
+@media(max-width: 414px){
+	.logo{
+		
+	}
+	.fb{
+		display: none;
+	}
+	.tw{
+		display: none;
+	}
+	#menu li{
+		float: none;
+		width: 100%;
+	}
+}
+@media(max-width: 320px){
+	.logo{
+		
+	}
+	.fb{
+		display: none;
+	}
+	.tw{
+		display: none;
+	}
+	#menu li{
+		float: none;
+		width: 100%;
+	}
+}
+.content1{
+	width: 100%;
+	margin: auto;
+	float: left;
+	background: #444444;
+}
+.content1-L{
+	float: left;
+	max-width: 70%;
+}
+.content1-R{
+	width: 22%;
+	float: left;
+	margin: 0 0;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+.title{
+	color: #33ccff;
+    font-size: 40px;
+}
+.A{
+	color: white;
+	font-size: 20px;
+	line-height: 30px;
+}
+.press{
+	height: 50px;
+	background: #888888;
+	color: white;
+	font-size: 15px;
+	
+}
+@media(max-width: 768px){
+	.content1-L{
+		width: 100%
+	}
+	.content1-R{
+		width: 100%;
+	}
+}
+@media(max-width: 414px){
+	.content1-L{
+		width: 100%
+	}
+	.content1-R{
+		width: 100%;
+	}
+}
+@media(max-width: 320px){
+	.content1-L{
+		width: 100%
+	}
+	.content1-R{
+		width: 100%;
+	}
+}
+.content2{
+	background: white;
+	width: 96%;
+	float: left;
+	padding: 2%;
+	margin-top: 10px;
+}
+.em{
+	color: #00BBFF;
+}
+@media(max-width: 768px){
+	.content2{
+		width: 100%;
+	}
+}
+@media(max-width: 414px){
+	.content2{
+		width: 100%;
+	}
+}
+@media(max-width: 320px){
+	.content2{
+		width: 100%;
+	}
+}
+.content3{
+	background: white;
+	float: left;
+	margin-top: 10px;
+}
+.content3-L{
+	padding: 2%;
+	width: 66%;
+	float: left;
+}
+.B{
+	float: left;
+	width: 50%;
+	padding-left: 5%;
+	line-height: 20px;
+}
+.content3-R{
+	width: 30%;
+	float: left;
+	padding-top: 2%;
+}
+@media(max-width: 768px){
+	.content3-L{
+		width: 100%;
+	}
+	
+	.content3-R{
+		width: 100%;
+	}
+}
+@media(max-width: 414px){
+	.content3-L{
+		width: 100%;
+	}
+	
+	.content3-R{
+		width: 100%;
+	}
+}
+@media(max-width: 320px){
+	.content3-L{
+		width: 100%;
+	}
+	
+	.content3-R{
+		width: 100%;
+	}
+}
+.footer{
+	text-align: center;
+}
